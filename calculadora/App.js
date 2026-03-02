@@ -46,6 +46,37 @@ export default function App() {
           <CalcButton theme={theme} label="%" variant="neutral" onPress={() => {}} /> 
           <CalcButton theme={theme} label="÷" variant="op" onPress={() => {}} /> 
         </View>
+
+         {/* Linha 2 */}
+        <View style={styles.row}>
+          <CalcButton theme={theme} label="7" variant="num" onPress={() => {}} /> 
+          <CalcButton theme={theme} label="8" variant="num" onPress={() => {}} /> 
+          <CalcButton theme={theme} label="9" variant="num" onPress={() => {}} /> 
+          <CalcButton theme={theme} label="x" variant="op" onPress={() => {}} /> 
+        </View>
+
+         {/* Linha 3 */}
+        <View style={styles.row}>
+          <CalcButton theme={theme} label="4" variant="num" onPress={() => {}} /> 
+          <CalcButton theme={theme} label="5" variant="num" onPress={() => {}} /> 
+          <CalcButton theme={theme} label="6" variant="num" onPress={() => {}} /> 
+          <CalcButton theme={theme} label="-" variant="op" onPress={() => {}} /> 
+        </View>
+
+         {/* Linha 4 */}
+        <View style={styles.row}>
+          <CalcButton theme={theme} label="1" variant="num" onPress={() => {}} /> 
+          <CalcButton theme={theme} label="2" variant="num" onPress={() => {}} /> 
+          <CalcButton theme={theme} label="3" variant="num" onPress={() => {}} /> 
+          <CalcButton theme={theme} label="+" variant="op" onPress={() => {}} /> 
+        </View>
+
+         {/* Linha 5 */}
+        <View style={styles.row}>
+          <CalcButton theme={theme} label="0" variant="num" wide onPress={() => {}} /> 
+          <CalcButton theme={theme} label="." variant="num" onPress={() => {}} /> 
+          <CalcButton theme={theme} label="=" variant="op" onPress={() => {}} /> 
+        </View>
       </View>
       
     </View>
